@@ -217,6 +217,8 @@ footer{
     align-items: center;
 }
 .footer{
+    /* margin-buttom: 100px;   */
+    margin-bottom: 100px;
     width: 80%;
     display: flex;
     align-items: center;
@@ -238,10 +240,7 @@ footer{
     height: 50px;
     margin-bottom: 40px;    
 }
-.flag{
-    /* font-size:px; */
-    border:  2px solid red;
-}
+
 .nigeria p{
     font-size: 15px;
     font-weight: 400;
@@ -339,9 +338,27 @@ footer .part-6 h2{
         display: block;
     }
 }
-
+.medium{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    gap: 2em;
+    margin-top: 50px;
+}
+.one{
+    display: flex;
+    gap: 3em;
+    /* padding-left: 2px; */
+}
+.two{
+    display: flex;
+    gap: 7em;
+}
 
 .last{
+    margin-top: 20px;
     color: #BAB4C7;
     font-size: 10px;
     font-weight: 400;
@@ -350,5 +367,24 @@ footer .part-6 h2{
     margin: auto;
     align-items: center;
     justify-content: center;
+}
+@media(max-width:900px){
+    .medium{
+        margin-top: 50px;
+        justify-content: space-evenly;
+    }
+}
+@media(max-width:600px){
+    .medium{
+        margin-top: 50px;
+        justify-content: center;
+        display: block;
+    }
+    .one{
+        gap: 2em;
+    }
+    .two{
+        gap: 2em;
+    }
 }
 
