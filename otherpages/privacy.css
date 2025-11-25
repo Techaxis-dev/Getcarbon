@@ -8,7 +8,7 @@ body{
 }
 .wrapper{
     background-color: #f5f5ee;
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 .navs{
@@ -130,8 +130,9 @@ ul li img{
     /* border: 2px solid red; */
 }
 .section-1{
-    padding: 0px 37px;
+    /* padding: 0px 37px; */
     margin-top: 110px;
+    /* width: 100%; */
 }
 h1{
     font-size: 36px;
@@ -160,8 +161,8 @@ p{
     margin-bottom: 70px;
 }
 @media(max-width:510px){
-    body{
-        padding: 0px 20px;
+    .section-1{
+        padding: 0px 10px;
     }
     h1{
         font-size: 30px;
@@ -177,6 +178,7 @@ footer{
     padding-bottom: 80px;
     display: block;
     align-items: center;
+    margin-top: 30px;
 }
 .footer{
     /* margin-buttom: 100px;   */
@@ -200,7 +202,8 @@ footer{
     display: flex;
     gap: 1em;
     height: 50px;
-    margin-bottom: 40px;    
+    margin-bottom: 40px;  
+    padding: 10px;  
 }
 
 .nigeria p{
@@ -308,7 +311,8 @@ footer .part-6 h2{
     margin: auto;
     width: 80%;
     gap: 2em;
-    margin-top: 50px;
+    margin-top: 90px;
+    margin-bottom: 50px;
 }
 .one{
     display: flex;
