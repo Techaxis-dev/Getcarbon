@@ -374,9 +374,11 @@ footer .part-6 h2{
         margin-top: 50px;
         justify-content: center;
         display: block;
+        margin-bottom: 20px;
     }
     .one{
         gap: 2em;
+        margin-bottom: 10px;
     }
     .two{
         gap: 2em;
