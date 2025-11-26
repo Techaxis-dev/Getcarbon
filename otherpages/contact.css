@@ -401,6 +401,7 @@ footer .part-6 h2 {
     color: black;
     margin-bottom: 15px;
     text-decoration: none;
+    list-style-type: none;
 }
 
 
@@ -475,20 +476,18 @@ footer .part-6 h2 {
     }
 }
 
-@media(max-width:600px) {
-    .medium {
+@media(max-width:600px){
+    .medium{
         margin-top: 50px;
         justify-content: center;
         display: block;
         margin-bottom: 20px;
     }
-
-    .one {
+    .one{
         gap: 2em;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
-
-    .two {
+    .two{
         gap: 2em;
     }
 }
