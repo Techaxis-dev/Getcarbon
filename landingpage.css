@@ -1473,6 +1473,9 @@ ul li img {
     }
 }
 @media(max-width:600px){
+    .section-10{
+        padding: 30px;
+    }
     .section-10 div{
         left: 60px;
     }
