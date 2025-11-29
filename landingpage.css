@@ -1467,26 +1467,15 @@ ul li img {
     /* text-align: center; */
 }
 
-@media(max-width:900px){
-    .section-10 div{
-        left: 100px;
-    }
-}
 @media(max-width:600px){
     .section-10{
         padding: 30px;
-    }
-    .section-10 div{
-        left: 60px;
     }
     .section-10 h1{
         font-size: 30px;
     }
 }
 @media(max-width:400px){
-    .section-10 div{
-        left: 30px;
-    }
     .section-10 h1{
         font-size: 20px;
     }
