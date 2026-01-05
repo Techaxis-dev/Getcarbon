@@ -381,23 +381,20 @@ footer {
 }
 
 
-
-footer .accordion {
+footer .accordion{
     width: 95%;
     margin: auto;
     display: none;
 }
-
-footer .part-6 h2 {
+footer .part-6 h2{
     color: #7a50c7;
     font-size: 25px;
     font-weight: 700;
     /* margin-bottom: 17px; */
 }
-
-.r {
+.r{
     font-size: 15px;
-    font-weight: 500;
+    font-weight:500;
     color: black;
     margin-bottom: 15px;
     text-decoration: none;
@@ -407,35 +404,30 @@ footer .part-6 h2 {
 
 
 
-@media(max-width:1200px) {
-    .footer {
+@media(max-width:1200px){
+    .footer{
         gap: 7em;
     }
 }
-
-@media(max-width:980px) {
-    .footer {
+@media(max-width:980px){
+    .footer{
         gap: 5em;
     }
 }
-
-@media(max-width:835px) {
-    .footer {
+@media(max-width:835px){
+    .footer{
         gap: 3em;
     }
 }
-
-@media(max-width:700px) {
-    .footer {
+@media(max-width:700px){
+    .footer{
         display: none;
     }
-
-    footer .accordion {
+    footer .accordion{
         display: block;
     }
 }
-
-.medium {
+.medium{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -445,19 +437,17 @@ footer .part-6 h2 {
     margin-top: 90px;
     margin-bottom: 50px;
 }
-
-.one {
+.one{
     display: flex;
     gap: 3em;
     /* padding-left: 2px; */
 }
-
-.two {
+.two{
     display: flex;
     gap: 7em;
 }
 
-.last {
+.last{
     margin-top: 30px;
     color: #BAB4C7;
     font-size: 10px;
@@ -468,14 +458,12 @@ footer .part-6 h2 {
     align-items: center;
     justify-content: center;
 }
-
-@media(max-width:900px) {
-    .medium {
+@media(max-width:900px){
+    .medium{
         margin-top: 50px;
         justify-content: space-evenly;
     }
 }
-
 @media(max-width:600px){
     .medium{
         margin-top: 50px;

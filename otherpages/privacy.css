@@ -5,6 +5,7 @@
 }
 body{
     width: 100%;
+    padding: 10px;
 }
 .wrapper{
     background-color: #f5f5ee;
@@ -256,7 +257,6 @@ footer{
     margin-bottom: 15px;
     text-decoration: none;
 }
-
 
 
 footer .accordion{
