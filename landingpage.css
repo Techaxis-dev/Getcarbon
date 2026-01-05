@@ -1052,7 +1052,7 @@ ul li img {
 @media(max-width:337px) {
     .section-55 div img {
         width: 220px;
-        left: 15%;
+        left: 20px;
     }
 
     .section-55 div img {
@@ -1389,8 +1389,9 @@ ul li img {
 }
 .section-10 div {
     width: 80%;
+    margin; auto;
     display: block;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .section-10 h1{
     font-size: 40px;
