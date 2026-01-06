@@ -4,22 +4,24 @@
     box-sizing: border-box;
     list-style-type: none;
 }
-
+body{
+    /* border: 3px solid green; */
+    margin: 0px;
+    padding: 0px;
+}
 .wrapper {
     background-color: #f5f5ee;
-    /* width: 80%;
-    margin: auto; */
+    width: 100%;
+    margin: auto;
 }
 
-.navs {
-    padding: 20px;
-    background-color: #2C1762;
-}
+
 
 header {
     /* border: 2px solid black; */
     background-color: #2C1762;
     width: 100%;
+    /* border: 2px solid red; */
     /* height: 2px; */
     position: fixed;
     z-index: 1000;
@@ -811,7 +813,7 @@ ul li img {
 
     .section-33 div img {
         position: absolute;
-        left: 25%;
+        left: 20px;
     }
 }
 
@@ -828,7 +830,7 @@ ul li img {
 
     .section-33 div img {
         width: 300px;
-        left: 5%;
+        left: 5px;
     }
 
     .section-33 div h1 {
@@ -841,14 +843,14 @@ ul li img {
 
     .section-33 div img {
         width: 250px;
-        left: 15%;
+        left: 15px;
     }
 }
 
 @media(max-width:337px) {
     .section-33 div img {
         width: 250px;
-        left: 15%;
+        left: 15px;
     }
 }
 
@@ -920,7 +922,7 @@ ul li img {
 
     .section-44 div img {
         width: 300px;
-        left: 5%;
+        left: 5px;
     }
 
     .section-44 div h1 {
@@ -946,7 +948,7 @@ ul li img {
 @media(max-width:337px) {
     .section-44 div img {
         width: 220px;
-        left: 15%;
+        left: 15px;
     }
 
     .section-44 div img {
@@ -1065,69 +1067,15 @@ ul li img {
 
 
 .section-6 div img {
-    position: relative;
+    background: url(./image/imgi_90_67aa22457825d8393f9755e4_image-16.webp);
     width: 100%;
     height: 500px;
 }
 
 .section-6 div .textttt {
-    /* position: absolute; */
-    left: 800px;
-    top: -350px;
-    position: relative;
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 
-.textttt {
-    width: 620px;
-}
-
-.textttt h1 {
-    color: #FF0475;
-    font-size: 40px;
-    font-weight: 700;
-}
-
-.textttt p {
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.textttt span {
-    color: #FF0475;
-    font-family: 700;
-}
-
-@media(max-width:900px) {
-    .section-6 div .textttt {
-        left: 250px;
-        top: -400px;
-    }
-
-    .textttt {
-        width: 550px;
-    }
-
-    .textttt p {
-        font-size: 18px;
-    }
-}
-
-@media(max-width:400px) {
-    .section-6 div .textttt {
-        left: 10px;
-        top: -450px;
-    }
-
-    .textttt {
-        width: 365px;
-    }
-
-    .textttt p {
-        font-size: 18px;
-    }
-}
 
 
 .section-7 {
@@ -1263,9 +1211,10 @@ ul li img {
 
 .section-9 {
     margin-top: 60px;
-    margin-left: 100px;
+    margin-left: 10px;
     display: block;
     margin-bottom: 70px;
+    border: 2px solid red;
 }
 
 .section-99 {
@@ -1351,22 +1300,26 @@ ul li img {
     /* padding: 10px; */
     /* border: 2px solid red; */
 }
-@media (max-width:900px){
-    .section-99{
+
+@media (max-width:900px) {
+    .section-99 {
         display: block;
-        
+
     }
 }
-@media (max-width:430px){
-    .section-9{
+
+@media (max-width:430px) {
+    .section-9 {
         margin-left: 30px;
     }
-    .section-9 h1{
+
+    .section-9 h1 {
         font-size: 30px;
     }
-    .section-99{
+
+    .section-99 {
         display: block;
-        
+
     }
 }
 
@@ -1383,24 +1336,30 @@ ul li img {
 
 
 
-.section-10{
+.section-10 {
     background-color: #FFF7FB;
     padding: 70px;
 }
+
 .section-10 div {
+    /* border: 2px solid red; */
     width: 80%;
-    margin; auto;
+    margin: auto;
     display: block;
+    align-items: center;
+    justify-content: center;
     /* border: 2px solid red; */
 }
-.section-10 h1{
+
+.section-10 h1 {
     font-size: 40px;
     font-size: 600;
     color: #2C1762;
     margin-bottom: 30px;
-    text-align: center;
+    /* text-align: center; */
 }
-.section-10 a{
+
+.section-10 a {
     background-color: #F80574;
     padding: 15px;
     color: white;
@@ -1409,16 +1368,18 @@ ul li img {
     /* text-align: center; */
 }
 
-@media(max-width:600px){
-    .section-10{
+@media(max-width:600px) {
+    .section-10 {
         padding: 30px;
     }
-    .section-10 h1{
+
+    .section-10 h1 {
         font-size: 30px;
     }
 }
-@media(max-width:400px){
-    .section-10 h1{
+
+@media(max-width:400px) {
+    .section-10 h1 {
         font-size: 20px;
     }
 }
@@ -1519,20 +1480,22 @@ footer {
 
 
 
-footer .accordion{
+footer .accordion {
     width: 95%;
     margin: auto;
     display: none;
 }
-footer .part-6 h2{
+
+footer .part-6 h2 {
     color: #7a50c7;
     font-size: 25px;
     font-weight: 700;
     /* margin-bottom: 17px; */
 }
-.r{
+
+.r {
     font-size: 15px;
-    font-weight:500;
+    font-weight: 500;
     color: black;
     margin-bottom: 15px;
     text-decoration: none;
@@ -1542,30 +1505,35 @@ footer .part-6 h2{
 
 
 
-@media(max-width:1200px){
-    .footer{
+@media(max-width:1200px) {
+    .footer {
         gap: 7em;
     }
 }
-@media(max-width:980px){
-    .footer{
+
+@media(max-width:980px) {
+    .footer {
         gap: 5em;
     }
 }
-@media(max-width:835px){
-    .footer{
+
+@media(max-width:835px) {
+    .footer {
         gap: 3em;
     }
 }
-@media(max-width:700px){
-    .footer{
+
+@media(max-width:700px) {
+    .footer {
         display: none;
     }
-    footer .accordion{
+
+    footer .accordion {
         display: block;
     }
 }
-.medium{
+
+.medium {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1575,17 +1543,19 @@ footer .part-6 h2{
     margin-top: 90px;
     margin-bottom: 50px;
 }
-.one{
+
+.one {
     display: flex;
     gap: 3em;
     /* padding-left: 2px; */
 }
-.two{
+
+.two {
     display: flex;
     gap: 7em;
 }
 
-.last{
+.last {
     margin-top: 30px;
     color: #BAB4C7;
     font-size: 10px;
@@ -1596,25 +1566,28 @@ footer .part-6 h2{
     align-items: center;
     justify-content: center;
 }
-@media(max-width:900px){
-    .medium{
+
+@media(max-width:900px) {
+    .medium {
         margin-top: 50px;
         justify-content: space-evenly;
     }
 }
-@media(max-width:600px){
-    .medium{
+
+@media(max-width:600px) {
+    .medium {
         margin-top: 50px;
         justify-content: center;
         display: block;
         margin-bottom: 20px;
     }
-    .one{
+
+    .one {
         gap: 2em;
         margin-bottom: 5px;
     }
-    .two{
+
+    .two {
         gap: 2em;
     }
 }
-
